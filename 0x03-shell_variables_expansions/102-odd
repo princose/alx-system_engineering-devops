@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | gren [13579][['space']] | tr -s
+perl -lne 'print if $. % 2 ==1'
